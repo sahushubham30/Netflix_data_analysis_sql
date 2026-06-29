@@ -45,18 +45,25 @@ The dataset contains information such as:
 
 This project answers practical business questions including:
 
-1. Count Movies vs TV Shows
-2. Find the most common rating for each content type
-3. List movies released in a specific year
-4. Identify the top countries producing Netflix content
-5. Find the longest movie available
-6. Retrieve content added in the last five years
-7. Search content by a specific director
-8. Find TV Shows with more than five seasons
-9. Count content across different genres
-10. Analyze yearly content trends by country
-11. (Additional analysis can be added as the project grows)
-
+1. Count the number of Movies vs TV Shows
+2. Find the most common rating for movies and TV shows
+3. List all movies released in a specific year (e.g., 2020)
+4. Find the top 5 countries with the most content on Netflix
+5. Identify the longest movie
+6. Find content added in the last 5 years
+7. Find all the movies/TV shows by director 'Rajiv Chilaka'!
+8. List all TV shows with more than 5 seasons
+9. Count the number of content items in each genre
+10.Find each year and the average numbers of content release in India on netflix. 
+return top 5 year with highest avg content release!
+11. List all movies that are documentaries
+12. Find all content without a director
+13. Find how many movies actor 'Salman Khan' appeared in last 10 years!
+14. Find the top 10 actors who have appeared in the highest number of movies produced in India.
+15.
+Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
+the description field. Label content containing these keywords as 'Bad' and all other 
+content as 'Good'. Count how many items fall into each category.
 ---
 
 # 💡 SQL Concepts Practiced
@@ -148,46 +155,9 @@ Throughout this project, I gained practical experience in:
 
 ---
 
-# 📁 Project Structure
-
-```
-Netflix-SQL-Project/
-│
-├── netflix.csv
-├── netflix_solutions.sql
-├── README.md
-└── screenshots/
-```
-
----
-
-# 🚀 Future Improvements
-
-- Create SQL Views
-- Build Stored Procedures
-- Optimize queries using Indexes
-- Create dashboards using Power BI/Tableau
-- Add Common Table Expressions (CTEs)
-- Perform trend analysis and KPI reporting
-
----
 
 # 🎯 Learning Outcome
 
 This project strengthened my understanding of SQL from basic querying to advanced analytical techniques. It simulates real-world business scenarios and demonstrates the ability to extract meaningful insights from large datasets using PostgreSQL.
 
 ---
-
-## ⭐ If you found this project useful, feel free to star the repository!
-
-```
-
-### Optional Improvements
-To make your repository stand out to recruiters, add:
-- `netflix.csv` (dataset)
-- `ERD.png` (database schema image)
-- A `screenshots/` folder with query outputs
-- `LICENSE` (MIT)
-- `.gitignore`
-
-This makes the project look much more polished and portfolio-ready.
