@@ -2,7 +2,7 @@
 
 A comprehensive SQL data analysis project built using the Netflix Movies & TV Shows dataset. This project demonstrates proficiency in SQL querying, data exploration, aggregation, window functions, string manipulation, date handling, and analytical problem-solving using PostgreSQL.
 
-
+![netflix_logo](https://github.com/sahushubham30/Netflix_data_analysis_sql/blob/main/logo.png)
 
 ---
 
